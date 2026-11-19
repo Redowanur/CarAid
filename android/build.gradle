@@ -16,6 +16,16 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+
+    configurations.all {
+        resolutionStrategy.dependencySubstitution {
+            // The me.carda JitPack artifacts now require an access token (401).
+            // The same Awesome Notifications Android core is publicly available
+            // under its GitHub coordinate on JitPack.
+            substitute module('me.carda:AndroidAwnCore') using module('com.github.rafaelsetragni:AndroidAwnCore:0.8.3') because 'me.carda:AndroidAwnCore is no longer publicly resolvable from JitPack'
+        }
     }
 }
 
