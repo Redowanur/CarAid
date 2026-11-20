@@ -1,5 +1,5 @@
-import 'package:call_mechanic/login_screen.dart';
-import 'package:call_mechanic/global/global.dart';
+import 'package:caraid/login_screen.dart';
+import 'package:caraid/global/global.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

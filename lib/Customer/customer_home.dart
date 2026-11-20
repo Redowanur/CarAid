@@ -1,8 +1,8 @@
 import 'package:awesome_notifications/awesome_notifications.dart';
-import 'package:call_mechanic/navigator_for_customer.dart';
+import 'package:caraid/navigator_for_customer.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:call_mechanic/show_map.dart';
+import 'package:caraid/show_map.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:geolocator/geolocator.dart';
@@ -58,7 +58,7 @@ class CustomerHomeUI extends State<CustomerHome> {
       'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F2b%2Ffb%2F10%2F2bfb109966e64e9d6884d811a0072029.jpg&f=1&nofb=1&ipt=984cc268343124711e260f7eb8da34138a828e4565b39a82cd13e2078ce8d317&ipo=images', // Replace with your app icon resource
       [
         NotificationChannel(
-          channelKey: 'Call Mechanic',
+          channelKey: 'CarAid',
           channelName: 'Mechanic Status',
           channelDescription: 'Car Helper',
           defaultColor: Color(0xFF9D50DD),

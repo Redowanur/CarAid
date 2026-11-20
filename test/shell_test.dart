@@ -1,8 +1,8 @@
-import 'package:call_mechanic/models/vehicle_type.dart';
-import 'package:call_mechanic/screens/customer/customer_shell.dart';
-import 'package:call_mechanic/screens/mechanic/mechanic_shell.dart';
-import 'package:call_mechanic/state/app_state.dart';
-import 'package:call_mechanic/widgets/app_nav_bar.dart';
+import 'package:caraid/models/vehicle_type.dart';
+import 'package:caraid/screens/customer/customer_shell.dart';
+import 'package:caraid/screens/mechanic/mechanic_shell.dart';
+import 'package:caraid/state/app_state.dart';
+import 'package:caraid/widgets/app_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

@@ -1,10 +1,10 @@
-import 'package:call_mechanic/core/utils/geo.dart';
-import 'package:call_mechanic/data/demo_data.dart';
-import 'package:call_mechanic/models/booking.dart';
-import 'package:call_mechanic/models/payment_method.dart';
-import 'package:call_mechanic/models/service_entry.dart';
-import 'package:call_mechanic/models/vehicle_type.dart';
-import 'package:call_mechanic/state/app_state.dart';
+import 'package:caraid/core/utils/geo.dart';
+import 'package:caraid/data/demo_data.dart';
+import 'package:caraid/models/booking.dart';
+import 'package:caraid/models/payment_method.dart';
+import 'package:caraid/models/service_entry.dart';
+import 'package:caraid/models/vehicle_type.dart';
+import 'package:caraid/state/app_state.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

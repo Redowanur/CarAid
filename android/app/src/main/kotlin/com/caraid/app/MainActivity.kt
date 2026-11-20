@@ -1,4 +1,4 @@
-package com.example.call_mechanic
+package com.caraid.app
 
 import io.flutter.embedding.android.FlutterActivity
 

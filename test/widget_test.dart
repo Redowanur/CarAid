@@ -1,4 +1,4 @@
-import 'package:call_mechanic/car_aid_app.dart';
+import 'package:caraid/car_aid_app.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
