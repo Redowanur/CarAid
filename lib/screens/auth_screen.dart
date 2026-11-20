@@ -64,9 +64,7 @@ class _AuthScreenState extends State<AuthScreen> {
                     runSpacing: 8,
                     children: const [
                       _HeroChip(icon: Icons.near_me_rounded, label: 'Nearest mechanic'),
-                      _HeroChip(icon: Icons.my_location_rounded, label: 'Live tracking'),
-                      _HeroChip(icon: Icons.account_balance_wallet_outlined,
-                          label: 'bKash · Nagad'),
+                      _HeroChip(icon: Icons.my_location_rounded, label: 'Live tracking')
                     ],
                   ),
                   const SizedBox(height: 30),

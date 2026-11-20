@@ -67,6 +67,7 @@ class _SplashBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
+      height: double.infinity,
       decoration: BoxDecoration(
         gradient: LinearGradient(
           begin: Alignment.topLeft,
@@ -100,7 +101,6 @@ class _SplashBody extends StatelessWidget {
                   width: 92,
                   height: 92,
                   decoration: BoxDecoration(
-                    gradient: AppColors.tealGradient,
                     borderRadius: BorderRadius.circular(30),
                     boxShadow: [
                       BoxShadow(
@@ -110,8 +110,15 @@ class _SplashBody extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: const Icon(Icons.car_repair_rounded,
-                      size: 50, color: AppColors.white),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(30),
+                    child: Image.asset(
+                      'assets/logo.jpeg',
+                      width: 92,
+                      height: 92,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
                 ),
               ),
               const SizedBox(height: 22),
